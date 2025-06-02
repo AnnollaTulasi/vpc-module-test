@@ -1,5 +1,5 @@
 module "vpc"{
-    source= "../module_dev"
+    source= "../vpc-module"
     project_name="expense"
     environment="dev"
     cidr=var.vpc_cidr
